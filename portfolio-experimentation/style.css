@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Oswald:wght@300&family=Protest+Revolution&display=swap');
+
+body {
+    background-color: beige;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {   
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 10px;
+  }
+  main {
+    border: 2px solid black;
+    height: 60vh;
+    padding: 25px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+  }
+  footer {
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 700;
+  }
+  a {
+    font-family: monospace;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+  }
+
+  img {
+    width: 250px;
+
+  }
